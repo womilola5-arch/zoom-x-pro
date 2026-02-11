@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoomX Pro - Free Video Conferencing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text">ZoomX Pro</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#about">About</a>
+                    <a href="meeting.html" class="btn-nav">Join Meeting</a>
+                </div>
+                <div class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    100% Free Forever
+                </div>
+                <h1 class="hero-title">
+                    Video Meetings
+                    <span class="gradient-text">Reimagined</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Connect with anyone, anywhere. No limits, no fees, no compromise.
+                    Experience video conferencing the way it should be.
+                </p>
+                <div class="hero-cta">
+                    <a href="meeting.html" class="btn btn-primary">
+                        <span>Start Free Meeting</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m0 0l-5-5m5 5l-5 5" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="schedule.html" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M6 2v2m8-2v2M3 8h14M5 4h10a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span>Schedule Meeting</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Participants</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Duration</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">$0</div>
+                        <div class="stat-label">Cost</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Packed with Features</h2>
+                <p>Everything you need for professional video meetings</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎥</div>
+                    <h3>HD Video & Audio</h3>
+                    <p>Crystal clear video and audio quality for professional meetings</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🖥️</div>
+                    <h3>Screen Sharing</h3>
+                    <p>Share your screen with one click for presentations and demos</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Live Chat</h3>
+                    <p>Real-time messaging during calls with file sharing support</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎬</div>
+                    <h3>Meeting Recording</h3>
+                    <p>Record meetings and save them locally for future reference</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Virtual Backgrounds</h3>
+                    <p>Blur your background or use custom images for privacy</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✋</div>
+                    <h3>Raise Hand</h3>
+                    <p>Signal when you want to speak without interrupting</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Password Protected</h3>
+                    <p>Secure your meetings with optional password protection</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📅</div>
+                    <h3>Schedule Meetings</h3>
+                    <p>Plan ahead with meeting scheduler and reminders</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Waiting Room</h3>
+                    <p>Control who joins your meeting with waiting room feature</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple, Transparent Pricing</h2>
+                <p>One plan. All features. Forever free.</p>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-badge">FOREVER FREE</div>
+                <h3>ZoomX Pro Free</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">0</span>
+                    <span class="period">/forever</span>
+                </div>
+                <ul class="pricing-features">
+                    <li>✅ Unlimited participants</li>
+                    <li>✅ Unlimited meeting duration</li>
+                    <li>✅ HD video and audio</li>
+                    <li>✅ Screen sharing</li>
+                    <li>✅ Recording capability</li>
+                    <li>✅ Virtual backgrounds</li>
+                    <li>✅ Chat & file sharing</li>
+                    <li>✅ Password protection</li>
+                    <li>✅ Meeting scheduler</li>
+                    <li>✅ No credit card required</li>
+                </ul>
+                <a href="meeting.html" class="btn btn-primary btn-large">Get Started Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why ZoomX Pro?</h2>
+                    <p>We believe video conferencing should be accessible to everyone, without hidden fees or artificial
+                        limitations. Built on open-source technology, ZoomX Pro delivers enterprise-grade features at
+                        zero cost.</p>
+                    <p>Whether you're running a business, teaching a class, or catching up with friends, our platform
+                        scales to meet your needs without ever asking for payment.</p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <strong>Open Source</strong>
+                            <span>Built on Jitsi Meet</span>
+                        </div>
+                        <div class="about-stat">
+                            <strong>Privacy First</strong>
+                            <span>End-to-end encryption</span>
+                        </div>
+                        <div class="about-stat">
+                            <strong>No Limits</strong>
+                            <span>Truly unlimited usage</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-card">
+                        <div class="visual-icon">🌍</div>
+                        <p>Used in 150+ countries worldwide</p>
+                    </div>
+                    <div class="visual-card">
+                        <div class="visual-icon">⚡</div>
+                        <p>Instant setup, no downloads required</p>
+                    </div>
+                    <div class="visual-card">
+                        <div class="visual-icon">🛡️</div>
+                        <p>Bank-level security & encryption</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to start meeting?</h2>
+                <p>Join thousands of users who trust ZoomX Pro for their video calls</p>
+                <a href="meeting.html" class="btn btn-primary btn-large">
+                    <span>Start Your First Meeting</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10h12m0 0l-5-5m5 5l-5 5" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">ZoomX Pro</span>
+                    </div>
+                    <p>Free video conferencing for everyone</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="meeting.html">Join Meeting</a>
+                        <a href="schedule.html">Schedule</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <a href="#about">About</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ZoomX Pro. Powered by Jitsi Meet.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
